@@ -1,6 +1,6 @@
-all: Maze
-Maze: main.o Boat.o
-	g++ -o prepcargo main.o Boat.o
+all: PrepBoat
+PrepBoat: main.o Boat.o
+	g++ -o prep main.o Boat.o
 main.o: main.cpp
 	g++ -c -g main.cpp
 Boat.o: Boat.cpp

@@ -1,9 +1,0 @@
-make.exe --dry-run --keep-going --print-directory
-make.exe: Entering directory 'c:/Users/glend/Desktop/new'
- 
-g++ -c -g main.cpp
- 
-g++ -o  main.o Boat.o
- 
-make.exe: Leaving directory 'c:/Users/glend/Desktop/new'
- 
