@@ -104,7 +104,6 @@ void remove_zeros(Boat b)
          remove_zeros(b);
       }
    }
-   cout << "test 1\n";
    print_result(b);
    return;
 }
